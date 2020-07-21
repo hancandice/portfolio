@@ -1,0 +1,7 @@
+.header_area .main-menu .navbar .navbar-brand:hover {
+  /* padding: 0.5rem; */
+  -webkit-animation: swing 1s ease-in-out;
+  animation: swing 1s ease-in-out;
+  -webkit-animation-iteration-count: 5;
+  animation-iteration-count: 5;
+}
