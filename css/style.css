@@ -11,7 +11,7 @@
 .header_area .main-menu .navbar .navbar-brand {
   border: none;
   position: relative;
-  padding: 0 5rem 0 2.5rem;
+  padding: 0;
   cursor: pointer;
   transition: 800ms ease all;
   outline: none;
@@ -25,7 +25,7 @@
   right: 0;
   height: 0.3rem;
   width: 0;
-  background: var(--primary-color);
+  background: var(--gradient-color);
   transition: 400ms ease all;
 }
 .header_area .main-menu .navbar .navbar-brand:after {
@@ -48,6 +48,7 @@
   font: normal 500 15px/2px var(--roboto);
   text-transform: uppercase;
   padding: 2rem;
+  text-align: center;
   color: var(--title-color);
   border-radius: 2rem;
   transition: all 1s;
@@ -68,19 +69,19 @@
 
 /* Banner Area */
 .site-main .site-banner {
-  background: url(../img/banner/liana-mikah-UwooAVFu6SI-unsplash.jpg) no-repeat
-    0% 50%;
+  background: url(../img/banner/joanna-kosinska-78uNJt1kPw8-unsplash.jpg)
+    no-repeat 0% 50%;
 }
 
 .site-main .site-banner .site-title h3 {
-  padding-top: 35%;
+  padding-top: 27.5%;
   font-weight: 500;
 }
 
 .site-main .site-banner .site-title h3::after {
   content: "";
   height: 2px;
-  width: 18vw;
+  width: 22vw;
   background: black;
   display: inline-block;
   margin-left: 5%;
@@ -99,7 +100,7 @@
   margin: 7rem 0;
   border-radius: 1rem;
   opacity: 0.8;
-  width: 90rem;
+  width: 90%;
   transition: all 0.5s;
 }
 
@@ -107,8 +108,44 @@
   margin: 7rem 0;
   border-radius: 1rem;
   opacity: 1;
-  width: 90rem;
+  width: 90%;
   box-shadow: var(--box-shadow);
 }
 
 /* End Banner Area */
+
+/* Start About Area */
+.site-main .about-area .about-image {
+  margin: 7rem auto;
+  width: 18rem;
+  height: 18rem;
+  display: flex;
+  background-color: transparent;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  opacity: 0.8;
+  transition: all 1s ease;
+}
+
+.site-main .about-area .about-image img {
+  width: 90%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.site-main .about-area .about-image:hover {
+  margin: 7rem auto;
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  background-color: var(--rose-color);
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  opacity: 1;
+  box-shadow: var(--box-shadow);
+  animation: swing 1s ease-in-out infinite;
+}
+
+/* End About Area */

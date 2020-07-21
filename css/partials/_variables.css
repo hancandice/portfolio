@@ -10,12 +10,13 @@ body {
 
 :root {
   --primary-color: #025f1e;
-  --primary-color2: #409c3d;
-  --rose-color: #ffe4e1;
+  --primary-color2: #a3a332;
+  --rose-color: #fcd5ce;
   --title-color: #141313;
   --text-color: #777777;
   --border-color: #201f1f17;
-  --gradient-color: linear-gradient(90deg, #025f1e 0%, #409c3d 100%);
+  --gradient-color: linear-gradient(90deg, #025f1e 0%, #a3a332 100%);
+  --gradient-color2: linear-gradient(90deg, #6d6875 0%, #b5838d 100%);
   --shadow-color: 0px 10px 30px rgba(85, 225, 108, 0.3);
   --box-shadow: 0px 10px 30px rgba(56, 61, 56, 0.205);
 
