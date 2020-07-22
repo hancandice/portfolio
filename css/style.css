@@ -150,8 +150,8 @@
 
 .site-main .about-area .about-image:hover {
   margin: 4rem auto;
-  width: 18rem;
-  height: 18rem;
+  width: 17rem;
+  height: 17rem;
   display: flex;
   background-color: var(--rose-color);
   justify-content: center;
@@ -163,7 +163,7 @@
 }
 
 .site-main .about-area .about-title {
-  padding: 0rem 2rem;
+  padding: 0 2rem;
 }
 
 .site-main .about-area .about-title h2 > span {

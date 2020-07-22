@@ -94,9 +94,9 @@
   display: block;
   position: absolute;
   transition: all 0.2s;
-  background: var(--primary-color);
+  background: black;
   z-index: 2;
-  opacity: 0.3;
+  opacity: 1;
 }
 .img_box .screen span:nth-child(1) {
   top: 0;
