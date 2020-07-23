@@ -89,6 +89,7 @@
   transform: translate(-50%, -50%);
   width: 100%;
   z-index: 1;
+  filter: brightness(1.1);
 }
 .img_box .screen span {
   display: block;
@@ -164,6 +165,10 @@ button:hover,
 .btn.active {
   outline: 0px !important;
   /* box-shadow: none !important; */
+}
+
+.title-h1 {
+  font: normal bold 39px/40px var(--roboto);
 }
 /* Animations */
 

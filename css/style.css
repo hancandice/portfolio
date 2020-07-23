@@ -288,7 +288,7 @@
 }
 
 .site-main .services-area .services-title {
-  padding: 0 2.5rem;
+  padding: 5% 10%;
 }
 
 .site-main .services-area .services-title h1 {
@@ -303,9 +303,9 @@
   transition: box-shadow 0.3s ease;
 }
 
-.site-main .services-area .services-list {
-  margin-top: 5%;
-}
+/* .site-main .services-area .services-list {
+  margin-top: 0;
+} */
 
 .site-main .services-area .services-list .services:hover {
   box-shadow: var(--box-shadow2);
@@ -342,4 +342,52 @@
   animation: swing 2500ms ease infinite;
 }
 
+.site-main .project-area .grid .my-project .img a:hover img {
+  filter: brightness(1.1);
+  /* filter: drop-shadow(1px 8px 30px #b1afaf); */
+}
 /* End Project Area */
+/* Start Clients Area */
+
+.site-main .clients-area {
+  padding: 7rem 0;
+}
+
+.site-main .clients-area .clients-title p {
+  padding: 5% 10%;
+}
+
+.site-main .clients-area .client {
+  background: #ffffff10;
+  border: 2px dotted var(--primary-color2);
+  box-shadow: var(--box-shadow2);
+  margin: 5% 0%;
+}
+
+.site-main .clients-area .client .client-img {
+  padding: 5%;
+}
+.site-main .clients-area .client .client-say {
+  padding-top: 5%;
+}
+
+.site-main .clients-area .client .client-say h4 {
+  font: normal 500 21px/20px var(--roboto);
+}
+.site-main .clients-area .client .client-say p {
+  font-size: 14px;
+}
+
+.site-main .clients-area .owl-carousel .owl-item {
+  display: flex;
+  justify-content: center;
+  padding: 0 1.5rem;
+}
+
+.site-main .clients-area .owl-carousel .owl-dots .owl-dot.active span {
+  background: var(--primary-color);
+  width: 12px;
+  height: 12px;
+}
+
+/* End Clients Area */

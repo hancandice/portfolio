@@ -11,4 +11,26 @@ $(document).ready(function () {
     });
     return false;
   });
+
+  $(".project-area .grid .test-popup-link").magnificPopup({
+    type: "image",
+    gallery: { enabled: true },
+
+    // other options
+  });
+
+  // Owl-carousel
+  $(".site-main .clients-area .owl-carousel").owlCarousel({
+    loop: true,
+    autoplay: true,
+    dots: true,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      544: {
+        items: 2,
+      },
+    },
+  });
 });
