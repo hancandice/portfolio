@@ -13,6 +13,7 @@ body {
   --primary-color2: #a3a332;
   --rose-color: #fcd5ce;
   --rose-color2: #b5838d;
+  --rose-color3: #6d6875;
   --title-color: #141313;
   --text-color: #777777;
   --border-color: #201f1f17;
@@ -20,6 +21,7 @@ body {
   --gradient-color2: linear-gradient(90deg, #6d6875 0%, #b5838d 100%);
   --shadow-color: 0px 10px 30px rgba(85, 225, 108, 0.3);
   --box-shadow: 0px 10px 30px rgba(56, 61, 56, 0.205);
+  --box-shadow2: 0 1px 8px rgb(29, 32, 19);
 
   /* font family variables. */
   --roboto: "Roboto";

@@ -100,6 +100,11 @@
 
 .site-main .site-banner .site-title h4 {
   font-size: 1.8rem;
+  background: linear-gradient(90deg, black 0%, var(--title-color) 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  text-shadow: 0.5rem 0.5rem 0.5rem var(--rose-color3);
 }
 
 .site-main .site-banner .banner-image {
@@ -202,8 +207,8 @@
   text-align: center;
   padding: 1.8rem 0;
   margin: 0.9rem 0;
-  width: 180px;
-  height: 100px;
+  width: 160px;
+  height: 90px;
   cursor: pointer;
   transition: transform 0.4s ease;
 }
@@ -275,3 +280,66 @@
   padding-left: 15%;
 }
 /* End Brand Area */
+
+/* Services Area */
+
+.site-main .services-area {
+  padding: 7rem 0rem;
+}
+
+.site-main .services-area .services-title {
+  padding: 0 2.5rem;
+}
+
+.site-main .services-area .services-title h1 {
+  font-size: 35px;
+}
+
+.site-main .services-area .services-list .services {
+  background: rgba(230, 243, 235, 0.973);
+  padding: 5% 0;
+  width: 100%;
+  margin: 5% 0.5%;
+  transition: box-shadow 0.3s ease;
+}
+
+.site-main .services-area .services-list {
+  margin-top: 5%;
+}
+
+.site-main .services-area .services-list .services:hover {
+  box-shadow: var(--box-shadow2);
+}
+
+/* End Services Area */
+
+/* Project Area */
+
+.site-main .project-area {
+  padding: 4% 8%;
+}
+
+.site-main .project-area .button-group {
+  padding-bottom: 5%;
+}
+
+.site-main .project-area .button-group button {
+  background: transparent;
+  border: none;
+  font: normal 500 1rem/2rem var(--roboto);
+  text-transform: uppercase;
+}
+
+.site-main .project-area .button-group button + button {
+  padding-left: 3%;
+}
+
+.site-main .project-area .grid .my-project > .title h4 {
+  font: normal 700 25px/12px var(--roboto);
+}
+
+.site-main .project-area .grid .element-item.swing {
+  animation: swing 2500ms ease infinite;
+}
+
+/* End Project Area */
