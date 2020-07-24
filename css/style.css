@@ -88,14 +88,14 @@
   content: "";
   height: 2px;
   width: 22vw;
-  background: black;
+  background: var(--text-color);
   display: inline-block;
   margin-left: 5%;
-  /* transform: translateY(-10px); */
+  /* transform: translateY(10px); */
 }
 
 .site-main .site-banner .site-title h1 {
-  font-size: 4rem;
+  font-size: 3.6rem;
 }
 
 .site-main .site-banner .site-title h4 {
@@ -388,6 +388,57 @@
   background: var(--primary-color);
   width: 12px;
   height: 12px;
+  box-shadow: var(--box-shadow2);
 }
 
 /* End Clients Area */
+
+/* Subscribe me Area */
+
+.site-main .subscribe-me-area {
+  padding: 5rem 0;
+}
+
+.site-main .subscribe-me-area .subscribe {
+  background: url(../img/banner/abigail-lynn-9JrBiphz0e0-unsplash.jpg) no-repeat
+    50% 50%;
+  padding: 10rem 0;
+  margin: 3rem auto;
+  box-shadow: var(--box-shadow2);
+}
+
+.site-main .subscribe-me-area .subscribe .subscribe-title h4 {
+  font: normal 700 30px/30px var(--roboto);
+  color: whitesmoke;
+}
+
+.site-main .subscribe-me-area .subscribe .subscribe-title p {
+  color: whitesmoke;
+  padding: 1% 5%;
+}
+
+.site-main .subscribe-me-area .subscribe form {
+  margin: 0% auto;
+}
+
+.site-main .subscribe-me-area .subscribe form .input-textbox input {
+  width: 150%;
+  padding: 7% 5%;
+  border: 2px solid whitesmoke;
+  background: transparent;
+  color: whitesmoke;
+  font: normal 500 17px/20px var(--roboto);
+}
+
+.site-main
+  .subscribe-me-area
+  .subscribe
+  form
+  .input-textbox
+  input::placeholder {
+  color: whitesmoke;
+}
+
+.site-main .subscribe-me-area .subscribe form .btn-submit button {
+  border: 2px solid whitesmoke;
+}
