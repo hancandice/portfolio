@@ -442,3 +442,63 @@
 .site-main .subscribe-me-area .subscribe form .btn-submit button {
   border: 2px solid whitesmoke;
 }
+
+/* End Subscribe me Area */
+
+/* Footer Area */
+footer.footer-area {
+  padding: 5rem 0;
+  background: url(../img/footer-bg.png) no-repeat;
+}
+
+footer.footer-area .site-logo .brand-logo {
+  border: none;
+  position: relative;
+  cursor: pointer;
+  transition: 800ms ease all;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 17%;
+}
+
+footer.footer-area .site-logo .brand-logo:before,
+footer.footer-area .site-logo .brand-logo:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 0.3rem;
+  width: 0;
+  background: var(--gradient-color);
+  transition: 400ms ease all;
+}
+footer.footer-area .site-logo .brand-logo:after {
+  right: inherit;
+  top: inherit;
+  left: 0;
+  bottom: 0;
+}
+footer.footer-area .site-logo .brand-logo:hover:before,
+footer.footer-area .site-logo .brand-logo:hover:after {
+  width: 80%;
+  transition: 800ms ease all;
+}
+
+footer.footer-area .social h5 {
+  font: normal 500 23px/30px var(--roboto);
+}
+
+footer.footer-area .social a > i {
+  font-size: 22px;
+  padding: 3%;
+  color: var(--border-color);
+}
+
+footer.footer-area .social a:hover > i {
+  color: var(--primary-color);
+}
+
+/* End Footer Area */
