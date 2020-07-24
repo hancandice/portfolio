@@ -80,7 +80,7 @@
 }
 
 .site-main .site-banner .site-title h3 {
-  padding-top: 27.5%;
+  padding-top: 20%;
   font-weight: 500;
 }
 
@@ -443,6 +443,12 @@
   border: 2px solid whitesmoke;
 }
 
+.site-main .subscribe-me-area .subscribe {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
 /* End Subscribe me Area */
 
 /* Footer Area */
@@ -489,6 +495,8 @@ footer.footer-area .site-logo .brand-logo:hover:after {
 
 footer.footer-area .social h5 {
   font: normal 500 23px/30px var(--roboto);
+  color: white;
+  text-shadow: 5px 2px 10px var(--rose-color3);
 }
 
 footer.footer-area .social a > i {
