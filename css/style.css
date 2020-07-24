@@ -266,7 +266,7 @@
   position: absolute;
   left: -10%;
   top: -10%;
-  background: #c3e2df;
+  background: var(--ocean-color);
   border-radius: 0 5% 5% 5%;
   width: 25rem;
   height: 25rem;
