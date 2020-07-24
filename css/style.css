@@ -69,7 +69,7 @@
 
 /* Banner Area */
 .site-main .site-banner {
-  padding: 4.5rem 0rem;
+  padding: 5rem 0rem;
   background: url(../img/banner/joanna-kosinska-78uNJt1kPw8-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: 0% 50%;
@@ -95,7 +95,7 @@
 }
 
 .site-main .site-banner .site-title h1 {
-  font-size: 3.6rem;
+  font-size: 4rem;
 }
 
 .site-main .site-banner .site-title h4 {
@@ -257,7 +257,7 @@
   content: "";
   /* padding: 100%; */
   width: 12rem;
-  height: 12rem;
+  height: 14rem;
   position: absolute;
   opacity: 0.2;
 }
@@ -266,7 +266,7 @@
   position: absolute;
   left: -10%;
   top: -10%;
-  background: var(--rose-color);
+  background: #c3e2df;
   border-radius: 0 5% 5% 5%;
   width: 25rem;
   height: 25rem;
@@ -327,7 +327,7 @@
 /* Project Area */
 
 .site-main .project-area {
-  padding: 4% 8%;
+  margin: 4% 0%;
 }
 
 .site-main .project-area .button-group {
@@ -345,6 +345,12 @@
   padding-left: 3%;
 }
 
+.site-main .project-area .grid {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 .site-main .project-area .grid .my-project > .title h4 {
   font: normal 700 25px/12px var(--roboto);
 }
@@ -357,11 +363,13 @@
   filter: brightness(1.1);
   /* filter: drop-shadow(1px 8px 30px #b1afaf); */
 }
+
 /* End Project Area */
 /* Start Clients Area */
 
 .site-main .clients-area {
   padding: 7rem 0;
+  background: url(../img/banner/sean-o-KMn4VEeEPR8-unsplash.jpg) no-repeat 0 0;
 }
 
 .site-main .clients-area .clients-title p {
@@ -370,7 +378,7 @@
 
 .site-main .clients-area .client {
   background: #ffffff10;
-  border: 2px dotted var(--primary-color2);
+  border: 3px dotted var(--primary-color2);
   box-shadow: var(--box-shadow2);
   margin: 5% 0%;
 }
@@ -407,7 +415,7 @@
 /* Subscribe me Area */
 
 .site-main .subscribe-me-area {
-  padding: 5rem 0;
+  padding: 7rem 0;
 }
 
 .site-main .subscribe-me-area .subscribe {
@@ -428,11 +436,11 @@
   padding: 1% 5%;
 }
 
-.site-main .subscribe-me-area .subscribe form {
+.site-main .subscribe-me-area .email-subscribe form {
   margin: 0% auto;
 }
 
-.site-main .subscribe-me-area .subscribe form .input-textbox input {
+.site-main .subscribe-me-area .email-subscribe form .input-textbox input {
   width: 150%;
   padding: 7% 5%;
   border: 2px solid whitesmoke;
@@ -443,14 +451,14 @@
 
 .site-main
   .subscribe-me-area
-  .subscribe
+  .email-subscribe
   form
   .input-textbox
   input::placeholder {
   color: whitesmoke;
 }
 
-.site-main .subscribe-me-area .subscribe form .btn-submit button {
+.site-main .subscribe-me-area .email-subscribe form .btn-submit button {
   border: 2px solid whitesmoke;
 }
 
@@ -519,6 +527,7 @@ footer.footer-area .social a > i {
   font-size: 22px;
   padding: 1% 3% 3% 3%;
   color: var(--text-color);
+  transition: color 0.5s ease;
 }
 
 footer.footer-area .social a:hover > i {
