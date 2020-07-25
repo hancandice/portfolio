@@ -73,6 +73,7 @@
   background: url(../img/banner/joanna-kosinska-78uNJt1kPw8-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: 0% 50%;
+  object-fit: cover;
 }
 
 .site-main .site-banner .site-title {
@@ -117,6 +118,7 @@
   border-radius: 1rem;
   opacity: 0.8;
   width: 90%;
+  object-fit: cover;
   transition: all 0.5s;
 }
 
@@ -254,6 +256,7 @@
 .site-main .brand-area .experience-area .years-area::after {
   background: url(../img/banner/max-smith-fcpEFmHxpUw-unsplash-removebg-preview.png)
     no-repeat 0 0;
+  object-fit: cover;
   content: "";
   /* padding: 100%; */
   width: 12rem;
@@ -327,7 +330,7 @@
 /* Project Area */
 
 .site-main .project-area {
-  margin: 4% 0%;
+  margin: 4% 0;
 }
 
 .site-main .project-area .button-group {
@@ -349,6 +352,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-end;
+  padding-bottom: 10%;
 }
 
 .site-main .project-area .grid .my-project > .title h4 {
