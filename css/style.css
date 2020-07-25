@@ -112,6 +112,7 @@
   margin: 7rem 0;
   display: flex;
   justify-content: center;
+  padding-bottom: 66%;
 }
 
 .site-main .site-banner .banner-image > img {
