@@ -1,13 +1,13 @@
-# Portfolio website(mobile responsive)
+# Portfolio website template (mobile responsive)
 
 ---
 
-> Programmar's Portfolio Website made with CSS, HTML, Bootstrap, Jquery
+> Programmar's Portfolio Website made with CSS, HTML, Bootstrap, and Jquery. Front end only, there is no backend but will be updated soon.
 
 ---
 
 <br>
 
-### Try it out 👇🏼
+### Example: Try it out 👇🏼
 
 https://geekjeeyoung.netlify.app
