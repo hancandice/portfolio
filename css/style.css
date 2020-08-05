@@ -68,17 +68,21 @@
 /* end navigation */
 
 /* Banner Area */
+.site-main .site-banner .col-md-12 {
+  padding-right: 0;
+}
 .site-main .site-banner {
   background: url(../img/banner/joanna-kosinska-78uNJt1kPw8-unsplash.jpg);
   background-repeat: no-repeat;
   background-position: 0% 50%;
 }
 
-.site-main .site-banner .site-title {
+.site-main .site-banner .site-title .site-buttons {
+  margin-top: 4rem;
 }
 
 .site-main .site-banner .site-title h3 {
-  padding-top: 30%;
+  padding-top: 10%;
   font-weight: 500;
 }
 
@@ -106,7 +110,7 @@
 }
 
 .site-main .site-banner .banner-image {
-  padding: 7rem 0;
+  padding: 3rem 1rem 4rem 1rem;
   width: 45rem;
 }
 
@@ -126,7 +130,9 @@
 
 /* Start About Area */
 .site-main .about-area {
-  padding: 7rem 0rem;
+  background: url(../img/banner/mu-mumu-bFC7wM_07Ec-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: 0% 60%;
 }
 
 .site-main .about-area .about-photos {
@@ -167,17 +173,27 @@
 }
 
 .site-main .about-area .about-title {
-  padding-left: 8%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.site-main .about-area .about-title h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .site-main .about-area .about-title h2 > span {
   display: block;
-  font: normal bold 49px/60px var(--roboto);
-  /* letter-spacing: 21px; */
+  /* font: normal bold 49px/60px var(--roboto); */
+  letter-spacing: 21px;
 }
 
 .site-main .about-area .about-title .paragraph > p {
   padding: 2em 0;
+  text-shadow: -1px -1px 1px rgb(255, 255, 255, 1) 1px 1px 1px rgb(0, 0, 0, 0.5);
 }
 
 /* End About Area */
@@ -291,7 +307,10 @@
 /* Services Area */
 
 .site-main .services-area {
-  padding: 7rem 0rem;
+  padding: 3rem 0rem;
+  background: url(../img/banner/jaron-mobley-3yxaH3CRM7M-unsplash.jpg);
+  background-repeat: no-repeat;
+  background-position: 0% 0%;
 }
 
 .site-main .services-area .services-title {
@@ -323,11 +342,15 @@
 /* Project Area */
 
 .site-main .project-area {
-  margin: 4% 0;
+  padding: 3rem 0;
 }
 
 .site-main .project-area .button-group {
   padding-bottom: 5%;
+}
+
+.site-main .project-area .container .row {
+  margin-left: 0;
 }
 
 .site-main .project-area .button-group button {
@@ -366,7 +389,8 @@
 
 .site-main .clients-area {
   padding: 7rem 0;
-  background: url(../img/banner/sean-o-KMn4VEeEPR8-unsplash.jpg) no-repeat 0 0;
+  background: url(../img/banner/madison-yocum-0MAv5PdrReE-unsplash.jpg)
+    no-repeat 0 0;
 }
 
 .site-main .clients-area .clients-title p {
@@ -412,7 +436,7 @@
 /* Subscribe me Area */
 
 .site-main .subscribe-me-area {
-  padding: 7rem 0;
+  padding: 4rem 0 2rem 0;
 }
 
 .site-main .subscribe-me-area .subscribe {
@@ -465,11 +489,16 @@
   flex-direction: column;
 }
 
+.site-main .subscribe-me-area .subscribe .email-subscribe .row {
+  display: flex;
+  justify-content: space-around;
+}
+
 /* End Subscribe me Area */
 
 /* Footer Area */
 footer.footer-area {
-  padding: 5rem 0;
+  padding: 0;
   background: url(../img/footer-bg.png) no-repeat;
 }
 
@@ -532,3 +561,10 @@ footer.footer-area .social a:hover > i {
 }
 
 /* End Footer Area */
+
+.demo {
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 0.3rem 0;
+}

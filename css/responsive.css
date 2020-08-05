@@ -1,27 +1,3 @@
-@media only screen and (max-width: 340px) {
-  .header_area .main-menu .navbar,
-  .header_area .main-menu .navbar .navbar-brand,
-  .site-main .subscribe-me-area .subscribe .subscribe-title,
-  .site-main .subscribe-me-area .subscribe .subscribe-title p,
-  h4,
-  .site-main .subscribe-me-area .subscribe {
-    padding: 2%;
-    margin: 0%;
-  }
-
-  .site-main .site-banner .site-title h1 {
-    font-size: 41px;
-  }
-
-  .site-main .subscribe-me-area .subscribe form .input-textbox input {
-    width: 15rem;
-  }
-
-  .site-main > .services-area .services {
-    width: 13rem;
-  }
-}
-
 @media only screen and (max-width: 792px) {
   .site-main .about-area .about-title h2 > span {
     font-size: 31px;
@@ -58,11 +34,43 @@
     margin: 0 auto;
   }
   .site-main .subscribe-me-area .subscribe .email-subscribe .row {
-    display: flex !important;
-    flex-direction: column !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
   }
   .site-main .subscribe-me-area .subscribe .email-subscribe input {
     width: 100% !important;
     margin-bottom: 5%;
+  }
+
+  .site-main .project-area .container .row {
+    margin-left: 10%;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  .header_area .main-menu .navbar,
+  .header_area .main-menu .navbar .navbar-brand,
+  .site-main .subscribe-me-area .subscribe .subscribe-title,
+  .site-main .subscribe-me-area .subscribe .subscribe-title p,
+  h4 {
+    padding: 2%;
+    margin: 0%;
+  }
+
+  .site-main .subscribe-me-area .subscribe {
+    padding: 2% 2% 5% 2%;
+  }
+
+  .site-main .site-banner .site-title h1 {
+    font-size: 41px;
+  }
+
+  .site-main .subscribe-me-area .subscribe form .input-textbox input {
+    width: 15rem;
+  }
+
+  .site-main > .services-area .services {
+    width: 13rem;
   }
 }
