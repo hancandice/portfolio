@@ -43,8 +43,8 @@
     margin-bottom: 5%;
   }
 
-  .site-main .project-area .container .row {
-    margin-left: 10%;
+  .site-main .project-area .grid .element-item.swing {
+    animation: none;
   }
 }
 
