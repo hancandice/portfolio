@@ -7,6 +7,10 @@
 /* import global styling */
 @import url(./partials/_global.css);
 
+html {
+  scroll-behavior: smooth;
+}
+
 /* start navigation */
 .header_area .main-menu .navbar .navbar-brand {
   border: none;
