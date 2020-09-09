@@ -99,3 +99,142 @@ scrollLinks.forEach(function (link) {
     linksContainer.classList.remove("show");
   });
 });
+
+// ************* responsive projects display **************
+
+const projects = [
+  {
+    id: 1,
+    title: "Food delivery website",
+    category: "latest responsive",
+    img: "./img/portfolio/foodsforgeeks.png",
+    link: "http://35.181.136.156/",
+    tool: "Python Django",
+  },
+  {
+    id: 2,
+    title: "LetsTalk Chat App",
+    category: "latest popular",
+    img: "./img/portfolio/letstalk.png",
+    link: "https://letstalkk.netlify.app",
+    tool: "React, Express, NodeJS, Socket.IO",
+  },
+  {
+    id: 3,
+    title: "Popular movie list website",
+    category: "latest responsive",
+    img: "./img/portfolio/movie_app.png",
+    link: "https://hancandice.github.io/movie_app/",
+    tool: "React JS",
+  },
+  {
+    id: 4,
+    title: "productivity app - Momentum",
+    category: "popular latest",
+    img: "./img/portfolio/momentum.png",
+    link: "https://hancandice.github.io/VanillaJS_Chrome_app/",
+    tool: "Vanilla Javascript",
+  },
+  {
+    id: 5,
+    title: "Current Weather Check Mobile App",
+    category: "latest",
+    img: "./img/portfolio/howstheweather.png",
+    link: "https://expo.io/@candicehan/romantic-weather",
+    tool: "React Native",
+  },
+  {
+    id: 6,
+    title: "To Do List Mobile App",
+    category: "latest",
+    img: "./img/portfolio/komdoritodo.png",
+    link: "https://expo.io/@candicehan/komdoritodo",
+    tool: "React Native",
+  },
+  {
+    id: 7,
+    title: "Drawing tool",
+    category: "popular",
+    img: "./img/portfolio/paintjs.png",
+    link: "https://hancandice.github.io/paintjs/",
+    tool: "Vanilla Javascript",
+  },
+  {
+    id: 8,
+    title: "Mobile KakaoTalk Clone",
+    category: "popular",
+    img: "./img/portfolio/kakao-clone.png",
+    link: "https://hancandice.github.io/geekjeeyoung-kakaotalk/",
+    tool: "HTML, CSS",
+  },
+  {
+    id: 9,
+    title: "Desktop/Mobile responsive Youtube clone",
+    category: "responsive popular",
+    img: "./img/portfolio/youtube-clone.png",
+    link: "https://hancandice.github.io/youtube_cloning_html_css/",
+    tool: "HTML, CSS, JavaScript",
+  },
+  {
+    id: 10,
+    title: "Job scrapper",
+    category: "latest",
+    img: "./img/portfolio/stackoverflow-jobscrapper.png",
+    link: "https://github.com/hancandice/python-web_scrapping",
+    tool: "Python",
+  },
+  {
+    id: 11,
+    title: "Online forum",
+    category: "responsive",
+    img: "./img/portfolio/namuarae.png",
+    link: "https://github.com/hancandice/django_board",
+    tool: "Python Django",
+  },
+  {
+    id: 12,
+    title: "Dynamic beat game<br>(in progress ⛑)",
+    category: "upcoming",
+    img: "./img/portfolio/dynamicbeat.png",
+    link: "https://github.com/hancandice/Dynamic_Beat",
+    tool: "Java",
+  },
+];
+
+const sectionCenter = document.querySelector(".project-section-center");
+const btnContainer = document.querySelector(".btn-container");
+
+// load items
+window.addEventListener("DOMContentLoaded", function () {
+  displayProjectsItems(projects);
+});
+
+function displayProjectsItems(projects) {
+  let displayProjects = projects.map(function (item) {
+    return `<div
+    class="swing col-sm-12 col-md-6 col-lg-4 element-item ${item.category}"
+  >
+    <div class="my-project">
+      <div class="img">
+        <a
+          class="test-popup-link"
+          href=${item.img}
+        >
+          <img
+            src=${item.img}
+            alt="portfolio-${item.id}"
+          />
+        </a>
+      </div>
+      <a href=${item.link} target="_blank">
+        <div class="title py-4">
+          <h4 class="text-uppercase">${item.title}</h4>
+          <span class="text-secondary">${item.tool}</span>
+        </div></a
+      >
+    </div>
+  </div>`;
+  });
+  displayProjects = displayProjects.join("");
+  sectionCenter.innerHTML = displayProjects;
+}
