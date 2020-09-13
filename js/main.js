@@ -108,7 +108,7 @@ const projects = [
     title: "Food delivery website",
     category: "latest responsive",
     img: "./img/portfolio/foodsforgeeks.png",
-    link: "http://35.181.136.156/",
+    link: "https://github.com/hancandice/foodsforgeeks",
     tool: "Python Django",
   },
   {
@@ -185,10 +185,10 @@ const projects = [
   },
   {
     id: 11,
-    title: "Online forum",
+    title: "Personal blog",
     category: "responsive",
-    img: "./img/portfolio/namuarae.png",
-    link: "https://github.com/hancandice/django_board",
+    img: "./img/portfolio/chezcandy.png",
+    link: "http://3.34.93.25/",
     tool: "Python Django",
   },
   {
