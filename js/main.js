@@ -121,11 +121,11 @@ const projects = [
   },
   {
     id: 3,
-    title: "Popular movie list website",
-    category: "latest responsive",
-    img: "./img/portfolio/movie_app.png",
-    link: "https://hancandice.github.io/movie_app/",
-    tool: "React JS",
+    title: "Personal blog",
+    category: "responsive",
+    img: "./img/portfolio/chezcandy.png",
+    link: "https://www.chezcandy.fun/",
+    tool: "Python Django",
   },
   {
     id: 4,
@@ -185,11 +185,11 @@ const projects = [
   },
   {
     id: 11,
-    title: "Personal blog",
-    category: "responsive",
-    img: "./img/portfolio/chezcandy.png",
-    link: "http://3.34.93.25/",
-    tool: "Python Django",
+    title: "Popular movie list website",
+    category: "latest responsive",
+    img: "./img/portfolio/movie_app.png",
+    link: "https://hancandice.github.io/movie_app/",
+    tool: "React JS",
   },
   {
     id: 12,
