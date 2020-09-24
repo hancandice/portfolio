@@ -337,7 +337,9 @@ html {
 }
 
 .site-main .services-area .services-list .services {
-  background: rgba(230, 243, 235, 0.973);
+  /* background: rgba(230, 243, 235, 0.973); */
+  background: #a6a6a6;
+  border-radius: 0.7rem;
   padding: 5% 0;
   width: 100%;
   margin: 5% 0.5%;
